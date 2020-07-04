@@ -18,6 +18,7 @@ A project written in C program which can help colleges to better facilitate and 
 Note: 'admin id' to display all registered student details is located in admin_id.txt
 
 ## Code Example
+```
 void main()
 {
     int i,j,n,choice,feec,bec,pgc,adm;
@@ -47,7 +48,7 @@ void main()
         }
     }
   }
-
+```
 
 ## Credits
 **©** @ganeshbs17 | 2020
