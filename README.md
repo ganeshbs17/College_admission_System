@@ -21,30 +21,40 @@ Note: 'admin id' to display all registered student details is located in admin_i
 ```
 void main()
 {
-    int i,j,n,choice,feec,bec,pgc,adm;
-    long int m;
-    for(;;) {
+    char choice;
+    
+   	for(;;) 
+	   {
+	   system("cls");
+		printf("\n\t\t   _____   _   _______        _     \n");
+		printf("\t\t  / ____| (_) |__   __|      | |    \n");
+		printf("\t\t | |       _     | | ___  ___| |__  \n");
+		printf("\t\t | |      | |    | |/ _ \\/ __| '_ \\ \n");
+		printf("\t\t | |____  | |    | |  __/ (__| | | |\n");
+		printf("\t\t  \\_____| |_|    |_|\\___|\\___|_| |_|\n\n\n");
+		
+		
         printf("\n\n+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+--\n");
-        printf("+ \t\t     MENU\t\t\t+\n+\t\t\t\t\t\t");
+        printf("+ \t\t         \t\t\t+\n+\t\t    MENU\t\t\t");
         printf("+\n+\t\t\t\t\t\t+\n+-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-\n");
-        printf("+\t\t\t\t\t\t+\n+ 1.Admission/Registration\t\t\t+\n+\t\t\t\t\t\t+\n+ 2.Academic Details\t\t\t\t+\n+\t\t\t\t\t\t+\n+ 3.Fees Details\t\t\t\t+\n+\t\t\t\t\t\t+\n+ 4.Search Your Registration By Name\t\t+\n+\t\t\t\t\t\t+\n+ 5.Show all Registrations\t\t\t+\n+\t\t\t\t\t\t+\n+ 6.Quit\t\t\t\t\t+\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-+-");
+        printf("+\t\t\t\t\t\t+\n+ 1.Admission/Registration\t\t\t+\n+\t\t\t\t\t\t+\n+ 2.Academic Details\t\t\t\t+\n+\t\t\t\t\t\t+\n+ 3.Fees Details\t\t\t\t+\n+\t\t\t\t\t\t+\n+ 4.Show all Registrations\t\t\t+\n+\t\t\t\t\t\t+\n+ 5.Quit\t\t\t\t\t+\n+\t\t\t\t\t\t+\n+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+--+-+-+-+-+-");
         printf("\n\nEnter Your Choice? \n\n");
-        scanf("%d",&choice);
-        switch(choice) {
-        case 1: system("cls");
+        scanf("%c",&choice);
+        switch(choice) 
+		{
+        case '1': system("cls");
                 admission_form();
                 break;
-        case 2: show_academic_details();
+        case '2': show_academic_details();
                 break;
-        case 3: fees_details();
+        case '3': fees_details();
                 break;
-        case 4: search_student();
+        case '4':display(); 
                 break;
-        case 5: display();
-                break;
-        case 6: return;
-
-        default:break;
+        case '5': return;
+            
+        default:printf("Invalid input \n Please Enter correct option");
+			break;
         }
     }
   }
