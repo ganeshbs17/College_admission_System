@@ -50,7 +50,10 @@ struct admi {
     char branch[50];
 }form;
 
-   int adm_id = 7799;
+// structure for storing the administrator id
+struct adminitrator {
+    float id;
+}host;
 
 
 // function for generating the admission form which will take the data of the student while enrolling.
@@ -220,10 +223,10 @@ int show_academic_details()
                     
                     printf("\n\n\t\tTotal Credits = 20\n\n");
             default :break;
-}		return choice;
+}		
 		printf("\nEnter any key to continue"); 
 		getch();
-		
+		return choice;
         }
 
     
@@ -285,29 +288,36 @@ void display()
     //local variables
    
     float adminid;
+    int Found=0;
     char s;
-    int v=0;
-	
-    	printf("\nEnter The Administrator ID: ");
+
+    // opening the admin file
+    if((admin_id=fopen("admin_id.txt","r"))==NULL) {
+        printf(" ! The File is Empty...\n\n");
+    } 
+    else {
+        printf("\nEnter The Administrator ID: ");
         scanf("%f",&adminid);
-       
-        
-        if(adm_id==adminid) {
+        while(!feof(admin_id)&& Found==0) {
+            fscanf(admin_id,"%f",&host.id);
+            if(adminid==host.id) {
+                Found=1;
+            }
+        }
+        if(Found) {
             student_detail = fopen("student_details.txt","r");
             while((s=fgetc(student_detail))!=EOF) {
                  printf("%c",s);
-                
+                }
 
                 fclose(student_detail);
-                v=1;
             }
-    }
-        else {
-            printf("\nInvalid  Administrator ID\nPlease Retry\n\n");
-            
+        
+        else if(!Found) {
+            printf("Please Enter the Correct Administrator ID\n\n");
+            fclose(admin_id);
         }
-    
-    
+    }
     printf("\nPress any key to continue");
     getch();
 }
