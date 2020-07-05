@@ -14,19 +14,24 @@ A project written in C program which can help colleges to better facilitate and 
 
 ## Screen-shots
 
-  ![Home](/ScreenShots/home.jpg)  Home
+  ![Home](/ScreenShots/home.jpg)  
+  Home
   
- Fee Details
+ 
   ![Fee Details](/ScreenShots/fee.jpg)
+  Fee Details
   
- Academic Details
+
   ![Academic Details](/ScreenShots/acadet.jpg)
+   Academic Detail
   
- Admission form
+
   ![Admission form](/ScreenShots/form.jpg)
+   Admission form
   
-Student Details
+
   ![Student Details](/ScreenShots/sudet.jpg)
+  Student Details
 
 ## How to use ?
 1. Download or clone the repository.
