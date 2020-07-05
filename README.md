@@ -18,18 +18,22 @@ A project written in C program which can help colleges to better facilitate and 
   Home
   
   ![Fee Details](/ScreenShots/fee.jpg)
+  
   Fee Details
   
 
   ![Academic Details](/ScreenShots/acadet.jpg)
+  
   Academic Detail
   
 
   ![Admission form](/ScreenShots/form.jpg)
+  
   Admission form
   
 
   ![Student Details](/ScreenShots/sudet.jpg)
+  
   Student Details
 
 ## How to use ?
