@@ -1,4 +1,4 @@
-# College Admission System
+﻿# College Admission System
 
 A project written in C program which can help colleges to better facilitate and manage the admission process of students.
 
@@ -11,6 +11,17 @@ A project written in C program which can help colleges to better facilitate and 
 - Displays Course Details,Fee structure.
 - Generates Text file with all applicant details. 
 - Clean design and formatting.
+
+## Screen-shots
+  ![Home](/ScreenShots/home.jpg)
+
+  ![Fee Details](/ScreenShots/fee.jpg)
+
+  ![Academic Details](/ScreenShots/acadet.jpg)
+
+  ![Admission form](/ScreenShots/form.jpg)
+
+  ![Student Details](/ScreenShots/sudet.jpg)
 
 ## How to use ?
 1. Download or clone the repository.
@@ -58,10 +69,11 @@ void main()
         }
     }
   }
+
 ```
 
 ## Credits
-**©** @ganeshbs17 | 2020
+**©** @ganeshbs17 :octocat: | 2020
 
 
 
