@@ -13,8 +13,8 @@ A project written in C program which can help colleges to better facilitate and 
 - Clean design and formatting.
 
 ## Screen-shots
- Home
-  ![Home](/ScreenShots/home.jpg)
+
+  ![Home](/ScreenShots/home.jpg)  Home
   
  Fee Details
   ![Fee Details](/ScreenShots/fee.jpg)
