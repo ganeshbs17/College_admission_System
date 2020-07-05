@@ -13,14 +13,19 @@ A project written in C program which can help colleges to better facilitate and 
 - Clean design and formatting.
 
 ## Screen-shots
+ Home
   ![Home](/ScreenShots/home.jpg)
-
+  
+ Fee Details
   ![Fee Details](/ScreenShots/fee.jpg)
-
+  
+ Academic Details
   ![Academic Details](/ScreenShots/acadet.jpg)
-
+  
+ Admission form
   ![Admission form](/ScreenShots/form.jpg)
-
+  
+Student Details
   ![Student Details](/ScreenShots/sudet.jpg)
 
 ## How to use ?
