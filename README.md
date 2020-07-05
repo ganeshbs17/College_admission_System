@@ -9,13 +9,13 @@ A project written in C program which can help colleges to better facilitate and 
 - The project helps the student admission and registration process, and maintains a record of student's personal and academic details.
 - Displays student information.
 - Displays Course Details,Fee structure.
+- Generates Text file with all applicant details. 
 - Clean design and formatting.
 
 ## How to use ?
 1. Download or clone the repository.
 2. Run the file college_admission_system.c with a suitable C IDE.
 
-Note: 'admin id' to display all registered student details is located in admin_id.txt
 
 ## Code Example
 ```
